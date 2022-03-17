@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="296.0" prefWidth="482.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.controller.Controller">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Movimiento permitido :" />
+      <Label layoutX="303.0" layoutY="14.0" text="Punto final :" />
+      <Label layoutX="187.0" layoutY="14.0" text="Punto inicial :" />
+      <TextField fx:id="txtMovPermitido" layoutX="141.0" layoutY="10.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtPosInicial" layoutX="260.0" layoutY="10.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtPosFinal" layoutX="367.0" layoutY="10.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas03" layoutX="246.0" layoutY="107.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas00" layoutX="117.0" layoutY="107.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas01" layoutX="160.0" layoutY="107.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas02" layoutX="206.0" layoutY="107.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas04" layoutX="289.0" layoutY="107.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas10" layoutX="117.0" layoutY="142.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas20" layoutX="117.0" layoutY="174.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas30" layoutX="117.0" layoutY="206.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas40" layoutX="117.0" layoutY="237.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas11" layoutX="160.0" layoutY="142.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas21" layoutX="160.0" layoutY="174.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas31" layoutX="160.0" layoutY="206.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas41" layoutX="160.0" layoutY="237.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas12" layoutX="206.0" layoutY="142.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas22" layoutX="206.0" layoutY="174.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas32" layoutX="206.0" layoutY="206.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas42" layoutX="206.0" layoutY="237.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas13" layoutX="246.0" layoutY="142.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas23" layoutX="246.0" layoutY="174.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas33" layoutX="246.0" layoutY="206.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas43" layoutX="246.0" layoutY="237.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas14" layoutX="289.0" layoutY="142.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas24" layoutX="289.0" layoutY="174.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas34" layoutX="289.0" layoutY="206.0" prefHeight="17.0" prefWidth="33.0" />
+      <TextField fx:id="txtCas44" layoutX="289.0" layoutY="237.0" prefHeight="17.0" prefWidth="33.0" />
+      <Separator layoutX="117.0" layoutY="94.0" prefWidth="200.0" />
+      <Button fx:id="btnIniciar" layoutX="194.0" layoutY="42.0" mnemonicParsing="false" onAction="#iniciarAction" text="Iniciar" />
+      <Separator layoutX="118.0" layoutY="271.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
